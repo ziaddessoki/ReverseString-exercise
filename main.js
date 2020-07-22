@@ -5,3 +5,7 @@ function reverse(str){
     revArr.push(str[i])
   }return revArr.join('')
 }
+
+const reverse2 = str => str.split('').reverse().join('')
+const reverse3 = str => [...str].reverse().join('')
+reverse3("hello")
